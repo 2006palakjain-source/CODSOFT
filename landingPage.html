@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #333;
+        }
+
+        
+        nav ul {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.85);
+            padding: 15px 30px;
+            margin: 0;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        nav li {
+            list-style: none;
+            margin: 0 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #006699;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ff6600;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #006699;
+            margin-right: auto;
+        }
+
+        .btn {
+            background: linear-gradient(45deg, #006699, #00ccff);
+            border: none;
+            padding: 8px 16px;
+            border-radius: 20px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .btn:hover {
+            transform: scale(1.1);
+            background: linear-gradient(45deg, #ff6600, #ff9900);
+        }
+
+        
+        header {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            height: 70vh;
+            color: white;
+            text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+       
+        .section {
+            padding: 60px 20px;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.9);
+            margin: 40px auto;
+            border-radius: 12px;
+            width: 85%;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+        }
+
+        .columns {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .column {
+            flex: 1;
+            margin: 15px;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 12px;
+            transition: transform 0.3s ease, background 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .column:hover {
+            transform: translateY(-10px);
+            background: #fff3e6;
+        }
+
+        
+        footer {
+            background: #006699;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        footer hr {
+            border: 0;
+            height: 1px;
+            background: #fff;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="logo">✈️ MakeMyHoliday</li>
+            <li class="feature"><a href="#">Destination</a></li>
+            <li class="feature"><a href="#">About Us</a></li>
+            <li class="feature"><a href="#">Testimonial</a></li>
+            <li class="feature"><button class="btn">Login</button></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Explore the World with ✈️ MakeMyHoliday</h1>
+        <p>Your adventure starts here</p>
+    </header>
+
+    <section class="section">
+        <h2>Popular Destinations</h2>
+        <div class="columns">
+            <div class="column">
+                <h3>Paris</h3>
+                <p>The city of lights awaits with romance, culture, and history.</p>
+            </div>
+            <div class="column">
+                <h3>Bali</h3>
+                <p>Relax on pristine beaches and immerse yourself in tropical beauty.</p>
+            </div>
+            <div class="column">
+                <h3>New York</h3>
+                <p>Experience the energy of the city that never sleeps.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <hr>
+        <p>&copy; 2026 ✈️ MakeMyHoliday | Designed with ❤️</p>
+        <hr>
+    </footer>
+</body>
+</html>

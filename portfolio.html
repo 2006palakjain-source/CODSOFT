@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    /* Hero Section */
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 40px 20px;
+      background: linear-gradient(135deg, #006699, #00ccff);
+      color: white;
+    }
+    .hero-text {
+      max-width: 60%;
+    }
+    .hero-text h2 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    .hero-text p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+    .btn {
+      background: #ff6600;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 25px;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .btn:hover {
+      background: #ff9900;
+    }
+    .hero img {
+      width: 180px;
+      height: 220px;
+      border-radius: 8px;
+      border: 3px solid white;
+      object-fit: cover;
+    }
+
+    /* Sections Styling */
+    .section {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section h2 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+      color: #006699;
+      text-align: center;
+    }
+    .section p {
+      line-height: 1.6;
+      text-align: center;
+      margin: 0;
+    }
+
+    /* Columns Layout */
+    .columns {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .column {
+      flex: 1;
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .column ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .column li {
+      margin: 8px 0;
+      padding: 8px;
+      background: #fff;
+      border-radius: 6px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+    /* Footer */
+    footer {
+      background: #006699;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+ 
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Palak Jain</h2>
+      <p>Hi, I’m a 2nd year Computer Engineering student exploring the world of web development. I love designing clean, functional websites and aspire to grow into a full-stack developer</p>
+      <button class="btn">Hire Me</button>
+    </div>
+    
+    <img src="your-photo.jpg" alt="Passport Photo">
+  </section>
+
+  
+  <section class="section">
+    <h2>About Me</h2>
+    <p>
+      I am a 2nd year Computer Engineering student with a strong passion for web development. I enjoy creating clean, responsive, and user-friendly websites that combine creativity with functionality. My goal is to keep learning modern technologies and grow into a full-stack developer.Outside of academics and coding, I actively pursue sports such as <strong>Badminton</strong> and <strong>Chess</strong>. Badminton keeps me physically fit and teaches teamwork, while Chess sharpens my strategic thinking and problem-solving skills. These hobbies help me stay balanced and improve both my focus and creativity.
+    </p>
+    
+  </section>
+
+  
+  <section class="section">
+    <div class="columns">
+      <div class="column">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML & CSS - Advanced</li>
+          <li>JavaScript  -Intermediate</li>
+          <li>React.js - Intermediate</li>
+          <li>Python - Intermediate</li>
+          <li>Database Management (MySQL, MongoDB)</li>
+        </ul>
+      </div>
+      <div class="column">
+        <h2>Certifications</h2>
+        <ul>
+          <li>Certified Web Developer – Coursera</li>
+          <li>Python Programming Professional – Udemy</li>
+          <li>Cloud Computing Fundamentals – AWS Academy</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="section">
+    <h2>Education</h2>
+    <ul>
+        <li>Secondary School - St. Ursula High School</li>
+        <li>Higher Secondary School - Creative Public School</li>
+        <li>Bachelor of Science in Computer Engineering – Dr. D.Y Patil Institute of Technology(2nd Year)</li>
+    </ul>
+  </section>
+
+ 
+  <footer>
+    <p>&copy; 2026 Palak Jain</p>
+  </footer>
+</body>
+</html>
+
